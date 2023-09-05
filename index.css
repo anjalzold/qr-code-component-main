@@ -1,0 +1,34 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.qrcode {
+  max-width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.qrcode .img {
+  max-width: 100%;
+}
+
+.qrcode .img img {
+  width: 100%;
+}
+
+.qrcode .text {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  font-family: system-ui;
+  font-weight: initial;
+}
+
+@media screen and(max-width: 350px) {
+  body {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
