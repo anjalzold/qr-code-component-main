@@ -5,9 +5,10 @@ body {
 .qrcode {
   max-width: 300px;
   background-color: hsl(0, 0%, 100%);
-  margin: auto auto;
   padding: 20px;
   border-radius: 20px;
+  justify-content: center;
+  align-items: ;
 }
 
 .qrcode .img {
