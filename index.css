@@ -1,14 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 body {
   background-color: hsl(212, 45%, 89%);
+  display: grid;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  place-items: center;
+  box-sizing: border-box;
+  font-family: Outfit;
 }
 
 .qrcode {
   max-width: 300px;
   background-color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 16px;
   border-radius: 20px;
   justify-content: center;
-  align-items: ;
+  align-items: center;
 }
 
 .qrcode .img {
@@ -17,6 +27,7 @@ body {
 
 .qrcode .img img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .qrcode .text {
